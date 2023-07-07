@@ -73,8 +73,7 @@ ul {
 }
 
 .header-content-body-image {
-    
-    border: 10px solid rebeccapurple;
+    /* border: 10px solid rebeccapurple; */
     flex: 1;
 }
 
@@ -86,17 +85,66 @@ img {
 
 .contents {
     height: 480px;
+    padding: 32px 48px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 .quote {
-    height: 480px;
+    height: 400px;
     background-color:#e5e7eb;
+    padding: 48px 72px;
+}
+
+.quote-content {
+    height: 100%;
+    width: 100%;
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.quote-content-text
+p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: end;
 }
 
 .sign-up {
     height: 320px;
     padding: 32px 48px;
 
+}
+
+.signup {
+    height: 280px;
+    padding: 56px 80px;
+}
+
+.signup-contents {
+    height: 100%;
+    width: 100%;
+    background-color: #3882f6;
+    padding: 48px;
+}
+
+.signup-contents-content {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
