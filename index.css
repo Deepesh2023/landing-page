@@ -73,7 +73,6 @@ ul {
 }
 
 .header-content-body-image {
-    /* border: 10px solid rebeccapurple; */
     flex: 1;
 }
 
@@ -85,13 +84,44 @@ img {
 
 .contents {
     height: 480px;
-    padding: 32px 48px 40px;
+    padding: 64px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+}
+
+.contents-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.contents-content-photos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.contents-content-photos-image {
+    flex: 1;
+    border: 2px solid #1f2937;
+    border-radius: 24px;
+}
+
+.contents-content-photos-description {
+    flex: 1;
+}
+
+.contents-content-photos-description
+p {
+    color: #1f2937;
+    text-align: center;
 }
 
 .quote {
